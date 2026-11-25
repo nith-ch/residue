@@ -8,8 +8,8 @@ ThinTin Toy Traders, a manufacturer of teething toys for childrens, needs to mon
 The amount of lubricant residue on each toy component is measured in micrograms per unit. Ideally, there should be no residue. 
 However, the company’s specifications allow for a small, permissible amount. Each testing facility analyzes the products manufactured at its respective site and documents the findings in regular reports.
 
-The following files are provided on GitHub:
-• thintin_site_A.csv and thintin_site_B.csv: the data files mentioned by the client in their email.
+The following files are provided on GitHub:<br>
+• thintin_site_A.csv and thintin_site_B.csv: the data files mentioned by the client in their email.<br>
 • functions.R: two functions developed by the client’s statistician.
 
 # Features
