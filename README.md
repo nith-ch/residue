@@ -19,15 +19,15 @@ Configurable Thresholds: Modify thresholds to identify potentially unusual obser
 Interactive Visualisation: Analyze residue results using an interactive time series plot.
 Flagged Results: Place and review observations that exceed the specified thresholds.
 Investigation Decisions: Mark flagged observations as Keep or Remove.
-Statistical Analysis: View summary statistics, residue density plots, and the Anderson Darling test.
+Statistical Analysis: View summary statistics, residue density plots, and the Anderson-Darling test.
 Export: Download plots as PNG files.
 
 # Libraries
-This app requires R and the following R libraries:
-• shiny
-• readxl
-• ggplot2
-• plotly
-• DT
-• dplyr
-• nortest
+This app requires R and the following R libraries:<br>
+• shiny<br>
+• readxl<br>
+• ggplot2<br>
+• plotly<br>
+• DT<br>
+• dplyr<br>
+• nortest<br>
