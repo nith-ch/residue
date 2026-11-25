@@ -13,14 +13,26 @@ The following files are provided on GitHub:<br>
 • functions.R: two functions developed by the client’s statistician.
 
 # Features
-Data Upload: Upload residue data from CSV or Other files.<br>
-Product Selection: Select a product to explore its residue results.<br>
-Configurable Thresholds: Modify thresholds to identify potentially unusual observations.<br>
-Interactive Visualisation: Analyze residue results using an interactive time series plot.<br>
-Flagged Results: Place and review observations that exceed the specified thresholds.<br>
-Investigation Decisions: Mark flagged observations as Keep or Remove.<br>
-Statistical Analysis: View summary statistics, residue density plots, and the Anderson-Darling test.<br>
-Export: Download plots as PNG files.
+• Data Upload: Upload residue data from CSV or Other files.<br>
+• Product Selection: Select a product to explore its residue results.<br>
+• Configurable Thresholds: Modify thresholds to identify potentially unusual observations.<br>
+• Interactive Visualisation: Analyze residue results using an interactive time series plot.<br>
+• Flagged Results: Place and review observations that exceed the specified thresholds.<br>
+• Investigation Decisions: Mark flagged observations as Keep or Remove.<br>
+• Statistical Analysis: View summary statistics, residue density plots, and the Anderson-Darling test.<br>
+• Export: Download plots as PNG files.
+
+# Project Structure
+residue/
+├── app.R
+├── functions.R
+├── README.md
+├── residue.Rproj
+├── .gitignore
+├── .gitattributes
+└── Data/
+    └── thintin_site_A.csv
+    └── thintin_site_B.csv
 
 # Libraries
 This app requires R and the following R libraries:<br>
