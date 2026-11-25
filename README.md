@@ -13,4 +13,21 @@ The following files are provided on GitHub:
 • functions.R: two functions developed by the client’s statistician.
 
 # Features
+Data Upload: Upload residue data from CSV or Other files.
+Product Selection: Select a product to explore its residue results.
+Configurable Thresholds: Modify thresholds to identify potentially unusual observations.
+Interactive Visualisation: Analyze residue results using an interactive time series plot.
+Flagged Results: Place and review observations that exceed the specified thresholds.
+Investigation Decisions: Mark flagged observations as Keep or Remove.
+Statistical Analysis: View summary statistics, residue density plots, and the Anderson Darling test.
+Export: Download plots as PNG files.
 
+# Libraries
+This app requires R and the following R libraries:
+• shiny
+• readxl
+• ggplot2
+• plotly
+• DT
+• dplyr
+• nortest
