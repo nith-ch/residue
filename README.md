@@ -2,7 +2,6 @@
 Residue Explorer - ThinTin Toy Traders
 
 # Overview
-<<<<<<< HEAD
 This project involves developing an R Shiny app for a client, ThinTin Toy Traders. Below is the project background and the client’s requirements.
 
 ThinTin Toy Traders, a manufacturer of teething toys for childrens, needs to monitor its products for the presence of residual lubricants. 
@@ -14,5 +13,4 @@ The following files are provided on GitHub:
 • functions.R: two functions developed by the client’s statistician.
 
 # Features
-=======
->>>>>>> 27bd4f79fac5c3d39f92b618384615e472bc6595
+
