@@ -23,15 +23,15 @@ The following files are provided on GitHub:<br>
 • Export: Download plots as PNG files.
 
 # Project Structure
-residue/
-├── app.R
-├── functions.R
-├── README.md
-├── residue.Rproj
-├── .gitignore
-├── .gitattributes
-└── Data/
-    └── thintin_site_A.csv
+residue/<br>
+├── app.R<br>
+├── functions.R<br>
+├── README.md<br>
+├── residue.Rproj<br>
+├── .gitignore<br>
+├── .gitattributes<br>
+└── Data/<br>
+    └── thintin_site_A.csv<br>
     └── thintin_site_B.csv
 
 # Libraries
