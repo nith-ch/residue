@@ -23,7 +23,7 @@ The following files are provided on GitHub:<br>
 • Export: Download plots as PNG files.
 
 # Project Structure
-residue/
+residue/<br>
 ├─ app.R<br>
 ├─ functions.R<br>
 ├─ README.md<br>

@@ -159,6 +159,31 @@ ui <- fluidPage(
         outline: 3px solid ", nursery_teal, " !important;
         outline-offset: 3px !important;
       }
+      
+      /* Cards */
+
+      .summary-card {
+      background-color: #FFFFFF;
+      border: 2px solid #2F7F7B;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      margin: 5px;
+      box-shadow: 0 3px 8px rgba(47, 127, 123, 0.12);
+      }
+
+      .summary-card h2 {
+        font-size: 32px;
+        font-weight: 800;
+        margin-top: 5px;
+        margin-bottom: 8px;
+      }
+
+      .summary-card p {
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 0;
+      }
 
       /* Accessible table */
       table.dataTable {
@@ -274,8 +299,45 @@ ui <- fluidPage(
         
         width = 9,
         
+        # 4.5.1 Summary Cards
+        
+        div(
+          class = "panel-card",
+          
+          fluidRow(
+            
+            column(
+              4,
+              div(
+                class = "summary-card",
+                h2(textOutput("zero_count")),
+                p("Zero Residue")
+              )
+            ),
+            
+            column(
+              4,
+              div(
+                class = "summary-card",
+                h2(textOutput("positive_count")),
+                p("Positive Residue")
+              )
+            ),
+            
+            column(
+              4,
+              div(
+                class = "summary-card",
+                h2(textOutput("flag_count")),
+                p("Investigation Points")
+              )
+            )
+            
+          )
+        ),
+        
         # ------------------------------------------------------
-        # 4.5.1 Time Series Plot
+        # 4.5.2 Time Series Plot
         # ------------------------------------------------------
         
         div(
@@ -930,6 +992,33 @@ ui <- fluidPage(
       
     })
     
+    # Show Cards
+    
+    output$zero_count <- renderText({
+      
+      data <- analysis_data()
+      
+      sum(data$Value == 0)
+      
+    })
+    
+    
+    output$positive_count <- renderText({
+      
+      data <- analysis_data()
+      
+      sum(data$Value > 0)
+      
+    })
+    
+    
+    output$flag_count <- renderText({
+      
+      data <- review_data()
+      
+      sum(data$Flag)
+      
+    })
     
     #5.15 ZERO RESIDUE AND STATISTICAL SUMMARY
     
