@@ -2,10 +2,10 @@
 Residue Explorer - ThinTin Toy Traders
 
 # Overview
-This project involves developing an R Shiny app for a client, ThinTin Toy Traders. Below is the project background and the client’s requirements.
+This project involves developing an R Shiny app for a client, ThinTin Toy Traders. Below is the project background and the client’s requirements.<br>
 
-ThinTin Toy Traders, a manufacturer of teething toys for childrens, needs to monitor its products for the presence of residual lubricants. 
-The amount of lubricant residue on each toy component is measured in micrograms per unit. Ideally, there should be no residue. 
+ThinTin Toy Traders, a manufacturer of teething toys for childrens, needs to monitor its products for the presence of residual lubricants.<br>
+The amount of lubricant residue on each toy component is measured in micrograms per unit. Ideally, there should be no residue.<br>
 However, the company’s specifications allow for a small, permissible amount. Each testing facility analyzes the products manufactured at its respective site and documents the findings in regular reports.
 
 The following files are provided on GitHub:<br>
@@ -24,15 +24,15 @@ The following files are provided on GitHub:<br>
 
 # Project Structure
 residue/
-├── app.R
-├── functions.R
-├── README.md
-├── residue.Rproj
-├── .gitignore
-├── .gitattributes
-└── Data/
-    └── thintin_site_A.csv
-    └── thintin_site_B.csv
+├─ app.R<br>
+├─ functions.R<br>
+├─ README.md<br>
+├─ residue.Rproj<br>
+├─ .gitignore<br>
+├─ .gitattributes<br>
+└─ Data/<br>
+  - thintin_site_A.csv<br>
+  - thintin_site_B.csv
 
 # Libraries
 This app requires R and the following R libraries:<br>
@@ -43,3 +43,10 @@ This app requires R and the following R libraries:<br>
 • DT<br>
 • dplyr<br>
 • nortest<br>
+
+# Statistical Analysis
+This application provides descriptive statistics and visualization tools to support the monitoring and examination of residuals, including:
+• Summary statistics
+• Density plots of the residuals
+• The p-value from the Anderson–Darling test
+These tools enable users to explore the distribution and characteristics of the measured residuals.
