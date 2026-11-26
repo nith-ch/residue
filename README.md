@@ -45,8 +45,8 @@ This app requires R and the following R libraries:<br>
 • nortest<br>
 
 # Statistical Analysis
-This application provides descriptive statistics and visualization tools to support the monitoring and examination of residuals, including:
-• Summary statistics
-• Density plots of the residuals
-• The p-value from the Anderson–Darling test
+This application provides descriptive statistics and visualization tools to support the monitoring and examination of residuals, including:<br>
+• Summary statistics<br>
+• Density plots of the residuals<br>
+• The p-value from the Anderson–Darling test<br>
 These tools enable users to explore the distribution and characteristics of the measured residuals.
