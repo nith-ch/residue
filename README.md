@@ -23,6 +23,7 @@ The following files are provided on GitHub:<br>
 • Export: Download plots as PNG files.
 
 # Project Structure
+<<<<<<< HEAD
 residue/
 ├─ app.R<br>
 ├─ functions.R<br>
@@ -33,6 +34,18 @@ residue/
 └─ Data/<br>
   - thintin_site_A.csv<br>
   - thintin_site_B.csv
+=======
+residue/<br>
+├── app.R<br>
+├── functions.R<br>
+├── README.md<br>
+├── residue.Rproj<br>
+├── .gitignore<br>
+├── .gitattributes<br>
+└── Data/<br>
+    └── thintin_site_A.csv<br>
+    └── thintin_site_B.csv
+>>>>>>> 3592696d2857a30fc335338fe2a81c55463028b2
 
 # Libraries
 This app requires R and the following R libraries:<br>
